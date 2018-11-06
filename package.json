@@ -1,0 +1,56 @@
+{
+  "name": "paramcase-keys",
+  "version": "0.1.0",
+  "description": "Convert object keys to paramCase",
+  "license": "MIT",
+  "repository": "alexluong/paramcase-keys",
+  "author": "Alex Luong",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "test": "ava src/test.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "map-obj": "^3.0.0",
+    "param-case": "^2.1.1",
+    "quick-lru": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "husky": "^1.1.3",
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.8.0"
+  },
+  "keywords": [
+    "map",
+    "obj",
+    "object",
+    "key",
+    "keys",
+    "value",
+    "values",
+    "val",
+    "iterate",
+    "paramcase",
+    "param-case",
+    "case",
+    "dash",
+    "hyphen",
+    "separator",
+    "string",
+    "text",
+    "convert",
+    "deep",
+    "recurse",
+    "recursive"
+  ]
+}
